@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-app
+  namespace: Java_app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: java-app
+  template:
+    metadata:
+      labels:
+        app: java-app
+    spec:
+      containers:
+      - name: java-app
+        image: 730335604401.dkr.ecr.ap-south-1.amazonaws.com/heydevopsjavaapp:latest
+        ports:
+        - containerPort: 8080

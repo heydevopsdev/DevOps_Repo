@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="Theme.HouseMartApplication" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary color for the app -->
+        <item name="colorPrimary">@color/figmaRed</item>
+        <item name="android:fontFamily">@font/poppinsregular</item>
+<!--    them for buttons    /-->
+        <item name="android:button">@style/Widget.HouseMartApplication.Button</item>
+
+    </style>
+
+    <!-- Custom button style -->
+    <style name="Widget.HouseMartApplication.Button" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/rounded_material_btn</item>
+        <item name="android:textColor">@color/figmaWhite</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item> <!-- Customize the radius as needed -->
+    </style>
+
+    <!--    custom bottom sheet style-->
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.BottomSheet</item>
+    </style>
+
+    <!-- Custom bottom sheet widget style -->
+    <style name="Widget.BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_bottom_sheet</item>
+        <item name="android:elevation">20dp</item> <!-- Customize elevation if needed -->
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.BottomSheet</item>
+    </style>
+
+    <!-- Custom shape appearance for bottom sheet -->
+    <style name="ShapeAppearance.BottomSheet" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item> <!-- Customize the radius as needed -->
+    </style>
+</resources>

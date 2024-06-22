@@ -1,0 +1,138 @@
+pipeline {
+    agent any
+    
+    environment {
+        GRADLE_HOME = '/opt/gradle/gradle-8.6'
+        PATH = "${GRADLE_HOME}/bin:${env.PATH}"
+        ECR_REGISTRY = '730335604401.dkr.ecr.ap-south-1.amazonaws.com'
+        ECR_REPO = 'heydevopsjavaapp'
+        K8S_NAMESPACE = 'Java_app'
+        K8S_DEPLOYMENT_NAME = 'java-app'
+        SONAR_URL = 'http://13.233.31.70:9000'
+        NEXUS_URL = 'http://13.233.31.70:8081'
+    }
+    
+    stages {
+        stage('Checkout SCM') {
+            steps {
+                script {
+                    checkout([
+                        $class: 'GitSCM',
+                        branches: [[name: '*/master']],
+                        userRemoteConfigs: [[
+                            url: 'https://github.com/kushagra023/NewJavaCode.git',
+                            credentialsId: 'git-token'  // Update with your Git credentials ID
+                        ]]
+                    ])
+                }
+            }
+        }
+
+        stage('Scan File System Using Trivy') {
+            steps {
+                script {
+                    sh 'trivy filesystem . --format json > trivy_scan_fs.json'
+                }
+            }
+        }
+
+        stage('Static Code Analysis Using SonarQube') {
+            steps {
+                withCredentials([string(credentialsId: 'sonarqube', variable: 'SONARQUBE_TOKEN')]) {
+                    withEnv(['PATH+GRADLE=${GRADLE_HOME}/bin']) {
+                        sh "gradle --version" // Check if gradle command is found
+                        sh "gradle sonarqube -Dsonar.login=${SONARQUBE_TOKEN} -Dsonar.host.url=${SONAR_URL}"
+                    }
+                }
+            }
+        }
+
+        stage('Build Java App Using Gradle') {
+            steps {
+                dir('app') {
+                    sh './gradlew clean build' // Use './gradlew' instead of 'gradle' to ensure Gradle wrapper is used
+                }
+            }
+        }
+
+        stage("Publish to Nexus Repository Manager") {
+            steps {
+                script {
+                    dir('app') {
+                        def gradleProps = readProperties file: 'gradle.properties'
+                        def filesByGlob = findFiles(glob: "build/libs/*.jar")
+                        def artifactPath = filesByGlob.isEmpty() ? null : filesByGlob[0].path
+
+                        if (artifactPath) {
+                            nexusArtifactUploader(
+                                nexusVersion: 'nexus3',
+                                protocol: 'http',
+                                nexusUrl: "${NEXUS_URL}",
+                                groupId: "${gradleProps['group']}",
+                                version: "${gradleProps['version']}",
+                                repository: 'hey-devops-java-app',
+                                credentialsId: 'nexus',
+                                artifacts: [
+                                    [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: artifactPath, type: "jar"],
+                                    [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: "build/libs/${gradleProps['archivesBaseName']}-${gradleProps['version']}.pom", type: "pom"]
+                                ]
+                            )
+                        } else {
+                            error "*** File: ${artifactPath}, could not be found"
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    dir('app') {
+                        sh 'docker build -t java-app-devops .'
+                    }
+                }
+            }
+        }
+
+        stage('Scan Docker Image Using Trivy') {
+            steps {
+                script {
+                    sh 'docker save java-app-devops | trivy image --input - --format json > trivy_scan_image.json'
+                }
+            }
+        }
+
+        stage('Push to ECR') {
+            steps {
+                script {
+                    sh "aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin ${ECR_REGISTRY}"
+                    sh "docker tag java-app-devops ${ECR_REGISTRY}/${ECR_REPO}:latest"
+                    sh "docker push ${ECR_REGISTRY}/${ECR_REPO}:latest"
+                }
+            }
+        }
+
+        stage('Create Namespace') {
+            steps {
+                script {
+                    sh "kubectl create namespace ${K8S_NAMESPACE} --dry-run=client -o yaml | kubectl apply -f -"
+                }
+            }
+        }
+
+        stage('Deploy to Kubernetes') {
+            steps {
+                dir('app') {
+                    sh "kubectl apply -f deployment.yaml -n ${K8S_NAMESPACE}"
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'trivy_scan_fs.json, trivy_scan_image.json', allowEmptyArchive: true
+        }
+    }
+}

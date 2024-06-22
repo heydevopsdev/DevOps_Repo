@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="colorDividerView">#ECECEC</color>
+
+    <color name="colorPrimary">#BF0711</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnPrimaryDark">#FFFFFF</color>
+    <color name="colorOnAccent">#000000</color>
+    <color name="colorOnSurfaceDark">#FFFFFF</color>
+    <color name="colorOnSurfaceLight">#000000</color>
+
+<!--  figma colors  /-->
+    <color name="figmaWhite">#ffffff</color>
+    <color name="figmaBlack">#000000</color>
+    <color name="figmaRed">#BF0711</color>
+    <color name="figmaGrey">#F2F4F7</color>
+</resources>
