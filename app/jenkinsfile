@@ -21,7 +21,7 @@ pipeline {
                         branches: [[name: '*/master']],
                         userRemoteConfigs: [[
                             url: 'https://github.com/kushagra023/NewJavaCode.git',
-                            credentialsId: 'git-token'  // Update with your Git credentials ID
+                            credentialsId: 'git-token'
                         ]]
                     ])
                 }
@@ -50,7 +50,7 @@ pipeline {
         stage('Build Java App Using Gradle') {
             steps {
                 dir('app') {
-                    sh './gradlew clean build' // Use './gradlew' instead of 'gradle' to ensure Gradle wrapper is used
+                    sh './gradlew clean build'
                 }
             }
         }
