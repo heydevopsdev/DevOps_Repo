@@ -33,7 +33,7 @@ pipeline {
                 }
             }
         }
-
+        /*
         stage('compile Java App Using Gradle') {
             steps {
                 dir('app') {
@@ -42,7 +42,7 @@ pipeline {
                 }
             }
         }
-
+        */
         stage("SonarQube Analysis") {
             steps {
                 dir('app') {
