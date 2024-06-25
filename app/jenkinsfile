@@ -33,17 +33,21 @@ pipeline {
                 }
             }
         }
-        stage('compile Java App Using Gradle') {
+
+        stage('Compile Java App Using Gradle') {
             steps {
                 dir('app') {
+                    echo 'Building Java application'
                     sh "gradle --version"
                     sh "gradle clean build"
                 }
             }
         }
+
         stage("SonarQube Analysis") {
             steps {
                 dir('app') {
+                    echo 'Running SonarQube analysis'
                     withSonarQubeEnv('sonarqube') {
                         sh "gradle sonarqube -Dsonar.host.url=${SONAR_URL} -Dsonar.login=${env.SONAR_TOKEN}"
                     }
@@ -54,6 +58,7 @@ pipeline {
         stage("Publish to Nexus Repository Manager") {
             steps {
                 script {
+                    echo 'Publishing artifacts to Nexus'
                     def gradleProps = readProperties file: 'gradle.properties'
                     def filesByGlob = findFiles(glob: "app/build/libs/*.jar")
                     def artifactPath = filesByGlob.isEmpty() ? null : filesByGlob[0].path
@@ -86,6 +91,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
+                    echo 'Building Docker image'
                     dir('app') {
                         sh 'sudo docker build -t java-app-devops .'
                     }
@@ -99,6 +105,7 @@ pipeline {
             }
             steps {
                 script {
+                    echo 'Scanning Docker image using Trivy'
                     sh 'trivy image --format json --output trivy_scan_image.json java-app-devops'
                 }
             }
@@ -107,6 +114,7 @@ pipeline {
         stage('Push to ECR') {
             steps {
                 script {
+                    echo 'Pushing Docker image to ECR'
                     withCredentials([[
                         $class: 'AmazonWebServicesCredentialsBinding',
                         credentialsId: 'aws-credentials',
@@ -124,6 +132,7 @@ pipeline {
         stage('Create Namespace') {
             steps {
                 script {
+                    echo 'Creating Kubernetes namespace'
                     sh "kubectl create namespace ${K8S_NAMESPACE} --dry-run=client -o yaml | kubectl apply -f -"
                 }
             }
@@ -132,8 +141,9 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 script {
-                    dir('app') {  // Adjusted directory path as per your directory structure
-                        sh "ls -l"  // Verify contents of the directory
+                    echo 'Deploying application to Kubernetes'
+                    dir('app') {
+                        sh "ls -l"
                         sh "kubectl apply -f deployandservice.yaml -n ${K8S_NAMESPACE}"
                     }
                 }
@@ -143,6 +153,7 @@ pipeline {
 
     post {
         always {
+            echo 'Archiving artifacts'
             archiveArtifacts artifacts: 'trivy_scan_fs.json, trivy_scan_image.json', allowEmptyArchive: true
         }
     }
