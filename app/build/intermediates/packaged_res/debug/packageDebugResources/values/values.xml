@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorDividerView">#ECECEC</color>
+    <color name="colorOnAccent">#000000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnPrimaryDark">#FFFFFF</color>
+    <color name="colorOnSurfaceDark">#FFFFFF</color>
+    <color name="colorOnSurfaceLight">#000000</color>
+    <color name="colorPrimary">#BF0711</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="figmaBlack">#000000</color>
+    <color name="figmaGrey">#F2F4F7</color>
+    <color name="figmaRed">#BF0711</color>
+    <color name="figmaWhite">#ffffff</color>
+    <color name="red">#FFFF0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="I">|</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="_200_reviews"><u>200 reviews</u></string>
+    <string name="_25_mins">25 mins</string>
+    <string name="_3_km">3 km</string>
+    <string name="_4_5">4.5</string>
+    <string name="app_name">BoltoMart</string>
+    <string name="boltomart">Boltomart</string>
+    <string name="categories">Categories</string>
+    <string name="didn_t_receive_otp">Didn\'t receive OTP?</string>
+    <string name="discover_sustainbale_living_with_us">Discover sustainbale living with us</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_the_otp_sent_at">Enter the otp sent at</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_gstin_number">Enter your GSTIN number</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="fetch">Fetch</string>
+    <string name="filter">Filter</string>
+    <string name="grow_your_business_with_us">Grow your business with us</string>
+    <string name="gst_number">GST Number</string>
+    <string name="gstin">GSTIN(*)</string>
+    <string name="hardware_fittings">Hardware Fittings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="i_am_a_vendor">I am a vendor</string>
+    <string name="i_want_to_buy">I want to buy</string>
+    <string name="join_as_a_vendor_and_showcase_your_eco_friendly_products_to_our_conscious_buyers">Join as a vendor and showcase your eco-friendly products to our conscious buyers.</string>
+    <string name="login">LOGIN</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="nearby_shops">Nearby Shops</string>
+    <string name="number_hint">Mobile number</string>
+    <string name="otp">OTP:</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="our_products">Our Products</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Password</string>
+    <string name="please_enter_valid_data_to_verify_your_identity_and_approve_your_login_credentials">Please Enter Valid Data to verify your identity and approve your login credentials</string>
+    <string name="resend_code_in">Resend Code in :</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="search_your_hardware_products">Search Your Hardware Products</string>
+    <string name="see_all">see all</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_as_a_user_to_explore_our_curated_selection_of_eco_friendly_products">Sign up as a user to explore our curated selection of eco-friendly products</string>
+    <string name="signup_as_vendor">SignUp as Vendor</string>
+    <string name="sri_venkateshwara_hardwares">Sri Venkateshwara Hardwares</string>
+    <string name="vendor_register_here">Seller/Vendor? Register here</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="villupuram_locality">Villupuram Locality</string>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.BottomSheet</item>
+    </style>
+    <style name="RoundedCorners" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+            <item name="cornerFamily">rounded</item>
+            <item name="cornerSize">20dp</item> 
+        </style>
+    <style name="ShapeAppearance.BottomSheet" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item> 
+    </style>
+    <style name="Theme.HouseMartApplication" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/figmaRed</item>
+        <item name="android:fontFamily">@font/poppinsregular</item>
+
+        <item name="android:button">@style/Widget.HouseMartApplication.Button</item>
+
+    </style>
+    <style name="Widget.BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_bottom_sheet</item>
+        <item name="android:elevation">20dp</item> 
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.BottomSheet</item>
+    </style>
+    <style name="Widget.HouseMartApplication.Button" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/rounded_material_btn</item>
+        <item name="android:textColor">@color/figmaWhite</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item> 
+    </style>
+</resources>

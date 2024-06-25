@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentBottomSheetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/rounded_bottom_sheet"
+    android:backgroundTint="@color/figmaWhite"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    tools:context=".auth.BottomSheetFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/baseline"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textField1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Sign up now to access a world of sustainable living"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+    <Button
+        android:id="@+id/signUpUserBtn"
+        style="@style/Widget.HouseMartApplication.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Sign up as user"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textField1"
+        app:layout_constraintStart_toStartOf="@+id/textField1"
+        app:layout_constraintTop_toBottomOf="@id/textField1" />
+
+    <Button
+        android:id="@+id/signUpVendorBtn"
+        style="@style/Widget.HouseMartApplication.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Sign up as Vendor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/signUpUserBtn"
+        app:layout_constraintStart_toStartOf="@+id/signUpUserBtn"
+        app:layout_constraintTop_toBottomOf="@id/signUpUserBtn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/signUpVendorBtn"
+        app:layout_constraintStart_toStartOf="@+id/signUpVendorBtn"
+        app:layout_constraintTop_toBottomOf="@id/signUpVendorBtn">
+
+        <TextView
+            android:id="@+id/textField2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/signInTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Sign in"
+            android:textColor="@color/figmaRed"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

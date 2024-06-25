@@ -1,0 +1,368 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:1:1-47:12
+INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:1:1-47:12
+MERGED from [androidx.databinding:viewbinding:8.4.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/848db1313c478154ceac8372c1e64d87/transformed/viewbinding-8.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61947e9a9fad04aa73c5b5226a44a58c/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a3bb0948efe5f4fa420c6e4cba767be1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:5.0.3] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8146603668b64b2ad83c23e9d628ab25/transformed/lottie-5.0.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/366cab65a9cdf9a2c5e75959df965d7c/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b3a1501e84f80562c2b5dded00d25a92/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/83c08fdea496b7d51d6a3a67c3032015/transformed/activity-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b8c76567b5fca4a0328680834b0d7551/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6d7a713add6f823bca03e5286a4a3454/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/69b786f0dffc7d8fc5d80d489b3346ea/transformed/activity-1.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/25140e154613763ad2b3f9d93cf6deb5/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/465e9e38066cc8b1cbe173aed5bc8ffc/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0a899faaff02efbf059e5e6fdf56243d/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/9c6d2e130b8dfa3841080bfac2ded212/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b7bc42d42ae9bfb918641d2030e02afa/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/54f1fb4b88e5e7feb6c5245bd2a88af7/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a261695656d27c4a9b8c5f01b25e9672/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/e71d8e72e3745523cd7d24b9c850452a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/76fb0fbc81cba1818d6d1aed24f15481/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/e4f389b9bf67b8f00d06e67e64aace00/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/def90a9aa8fc69a13ccdaf17b422cbd9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b5666bf37baa6459031c8888bdf307a7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/eb5102f8de660e06db094dda0794faf4/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/5a223143d6f31dd80da9b15d84a7c6ff/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/9d63bf1e529a7753d556b055d3e4e72d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/7a8086eb37385fe818d5d94ae185a251/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6c1c0f2cc3cffb966294ff90565545f4/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6ddc480da27514582b92b6640e92a4a2/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61f8ea8558136ca5a75094f169a8f462/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/eff3af7ddc49d9b949ec8fd1a7b1dc76/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/d6cb98dd1eed4204526c391e884cf7fc/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/83b269069e8abfe5c2e2378a8ce0af21/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/50119754e7e16ec37055271890bf1416/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/33d33d5f92eaee147929a1342ba40528/transformed/volley-1.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/1b2e29741a2c2a2a7213fa4a4a3c44c4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/28ac23277d2f717af32934e15325f79d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0bc2506c1bbcaf1e91dca04c9e9443f8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/362b32855c2af61766ab10ef96381b18/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/35c35a172808207a0353b245c38b6255/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a64e46b6c19db09e0a9afbd717d60078/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8fece36427a1f57b2a70d4ffb4f8492b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/51d2bb7faa93b3473cf37cb9edcc2bda/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/898d19f7aeb1d59a34bef129d8333ae2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cbe6953a47f5bd9cb9faea3ac71905e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8142962b5c9717c2ee45f32ca1cd62c2/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:5:5-46:19
+INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:5:5-46:19
+MERGED from [com.google.android.material:material:1.12.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61947e9a9fad04aa73c5b5226a44a58c/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61947e9a9fad04aa73c5b5226a44a58c/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a3bb0948efe5f4fa420c6e4cba767be1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a3bb0948efe5f4fa420c6e4cba767be1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:5.0.3] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8146603668b64b2ad83c23e9d628ab25/transformed/lottie-5.0.3/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:5.0.3] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8146603668b64b2ad83c23e9d628ab25/transformed/lottie-5.0.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/50119754e7e16ec37055271890bf1416/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/50119754e7e16ec37055271890bf1416/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0bc2506c1bbcaf1e91dca04c9e9443f8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0bc2506c1bbcaf1e91dca04c9e9443f8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a64e46b6c19db09e0a9afbd717d60078/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a64e46b6c19db09e0a9afbd717d60078/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:13:9-58
+	android:dataExtractionRules
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.example.housemartapplication.auth.vendorauth.VendorSignUpActivity2
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:16:13-66
+activity#com.example.housemartapplication.OnBoardingActivity
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:19:13-47
+activity#com.example.housemartapplication.Splash_Activity
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:21:9-25:20
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:22:13-44
+activity#com.example.housemartapplication.auth.userauth.SignUpOtpActivity
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:27:13-60
+activity#com.example.housemartapplication.auth.vendorauth.VendorSignUpActivity
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:30:13-65
+activity#com.example.housemartapplication.auth.userauth.UserSignUpActivity
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:33:13-61
+activity#com.example.housemartapplication.auth.ParentAuthActivity
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:35:9-37:39
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:36:13-52
+activity#com.example.housemartapplication.MainActivity
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:38:9-45:20
+	android:exported
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:39:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml:43:27-74
+uses-sdk
+INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.4.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/848db1313c478154ceac8372c1e64d87/transformed/viewbinding-8.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.4.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/848db1313c478154ceac8372c1e64d87/transformed/viewbinding-8.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61947e9a9fad04aa73c5b5226a44a58c/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61947e9a9fad04aa73c5b5226a44a58c/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a3bb0948efe5f4fa420c6e4cba767be1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a3bb0948efe5f4fa420c6e4cba767be1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:5.0.3] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8146603668b64b2ad83c23e9d628ab25/transformed/lottie-5.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:5.0.3] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8146603668b64b2ad83c23e9d628ab25/transformed/lottie-5.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/366cab65a9cdf9a2c5e75959df965d7c/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/366cab65a9cdf9a2c5e75959df965d7c/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b3a1501e84f80562c2b5dded00d25a92/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b3a1501e84f80562c2b5dded00d25a92/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/83c08fdea496b7d51d6a3a67c3032015/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/83c08fdea496b7d51d6a3a67c3032015/transformed/activity-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b8c76567b5fca4a0328680834b0d7551/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b8c76567b5fca4a0328680834b0d7551/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6d7a713add6f823bca03e5286a4a3454/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6d7a713add6f823bca03e5286a4a3454/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/69b786f0dffc7d8fc5d80d489b3346ea/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/69b786f0dffc7d8fc5d80d489b3346ea/transformed/activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/25140e154613763ad2b3f9d93cf6deb5/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/25140e154613763ad2b3f9d93cf6deb5/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/465e9e38066cc8b1cbe173aed5bc8ffc/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/465e9e38066cc8b1cbe173aed5bc8ffc/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0a899faaff02efbf059e5e6fdf56243d/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0a899faaff02efbf059e5e6fdf56243d/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/9c6d2e130b8dfa3841080bfac2ded212/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/9c6d2e130b8dfa3841080bfac2ded212/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b7bc42d42ae9bfb918641d2030e02afa/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b7bc42d42ae9bfb918641d2030e02afa/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/54f1fb4b88e5e7feb6c5245bd2a88af7/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/54f1fb4b88e5e7feb6c5245bd2a88af7/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a261695656d27c4a9b8c5f01b25e9672/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a261695656d27c4a9b8c5f01b25e9672/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/e71d8e72e3745523cd7d24b9c850452a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/e71d8e72e3745523cd7d24b9c850452a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/76fb0fbc81cba1818d6d1aed24f15481/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/76fb0fbc81cba1818d6d1aed24f15481/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/e4f389b9bf67b8f00d06e67e64aace00/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/e4f389b9bf67b8f00d06e67e64aace00/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/def90a9aa8fc69a13ccdaf17b422cbd9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/def90a9aa8fc69a13ccdaf17b422cbd9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b5666bf37baa6459031c8888bdf307a7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b5666bf37baa6459031c8888bdf307a7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/eb5102f8de660e06db094dda0794faf4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/eb5102f8de660e06db094dda0794faf4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/5a223143d6f31dd80da9b15d84a7c6ff/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/5a223143d6f31dd80da9b15d84a7c6ff/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/9d63bf1e529a7753d556b055d3e4e72d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/9d63bf1e529a7753d556b055d3e4e72d/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/7a8086eb37385fe818d5d94ae185a251/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/7a8086eb37385fe818d5d94ae185a251/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6c1c0f2cc3cffb966294ff90565545f4/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6c1c0f2cc3cffb966294ff90565545f4/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6ddc480da27514582b92b6640e92a4a2/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/6ddc480da27514582b92b6640e92a4a2/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61f8ea8558136ca5a75094f169a8f462/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61f8ea8558136ca5a75094f169a8f462/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/eff3af7ddc49d9b949ec8fd1a7b1dc76/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/eff3af7ddc49d9b949ec8fd1a7b1dc76/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/d6cb98dd1eed4204526c391e884cf7fc/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/d6cb98dd1eed4204526c391e884cf7fc/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/83b269069e8abfe5c2e2378a8ce0af21/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/83b269069e8abfe5c2e2378a8ce0af21/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/50119754e7e16ec37055271890bf1416/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/50119754e7e16ec37055271890bf1416/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/33d33d5f92eaee147929a1342ba40528/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/33d33d5f92eaee147929a1342ba40528/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/1b2e29741a2c2a2a7213fa4a4a3c44c4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/1b2e29741a2c2a2a7213fa4a4a3c44c4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/28ac23277d2f717af32934e15325f79d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/28ac23277d2f717af32934e15325f79d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0bc2506c1bbcaf1e91dca04c9e9443f8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0bc2506c1bbcaf1e91dca04c9e9443f8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/362b32855c2af61766ab10ef96381b18/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/362b32855c2af61766ab10ef96381b18/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/35c35a172808207a0353b245c38b6255/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/35c35a172808207a0353b245c38b6255/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a64e46b6c19db09e0a9afbd717d60078/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/a64e46b6c19db09e0a9afbd717d60078/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8fece36427a1f57b2a70d4ffb4f8492b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8fece36427a1f57b2a70d4ffb4f8492b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/51d2bb7faa93b3473cf37cb9edcc2bda/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/51d2bb7faa93b3473cf37cb9edcc2bda/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/898d19f7aeb1d59a34bef129d8333ae2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/898d19f7aeb1d59a34bef129d8333ae2/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cbe6953a47f5bd9cb9faea3ac71905e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cbe6953a47f5bd9cb9faea3ac71905e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8142962b5c9717c2ee45f32ca1cd62c2/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8142962b5c9717c2ee45f32ca1cd62c2/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0bc2506c1bbcaf1e91dca04c9e9443f8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/0bc2506c1bbcaf1e91dca04c9e9443f8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b9442969f6525d4721a889d2f0636713/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.housemartapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.housemartapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/bd02db264c18387348b2c5d7262fc0d9/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/726d759f7bb17d0292fa9567d24b2e3f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/3cf289fe4799a3ca1b304756f5baa23e/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
