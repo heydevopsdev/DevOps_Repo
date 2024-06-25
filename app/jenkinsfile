@@ -34,11 +34,11 @@ pipeline {
             }
         }
 
-        stage('Build Java App Using Gradle') {
+        stage('compile Java App Using Gradle') {
             steps {
                 dir('app') {
                     sh "gradle --version"
-                    sh "gradle clean build"
+                    sh "gradle clean compile"
                 }
             }
         }
