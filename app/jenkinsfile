@@ -38,7 +38,7 @@ pipeline {
             steps {
                 dir('app') {
                     sh "gradle --version"
-                    sh "./gradlew clean build"
+                    sh "gradle clean build"
                 }
             }
         }
