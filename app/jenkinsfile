@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    
+
     environment {
         GRADLE_HOME = '/opt/gradle-8.6'
         ANDROID_SDK_ROOT = '/home/ubuntu/Android/Sdk'
@@ -12,7 +12,7 @@ pipeline {
         NEXUS_URL = 'http://43.205.138.85:8081'
         PATH = "${GRADLE_HOME}/bin:${env.PATH}:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
     }
-    
+
     stages {
         stage('Checkout SCM') {
             steps {
