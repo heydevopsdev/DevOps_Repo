@@ -8,6 +8,7 @@ pipeline {
         ECR_REGISTRY = '730335604401.dkr.ecr.ap-south-1.amazonaws.com'
         ECR_REPO = 'heydevopsjavaapp'
         K8S_NAMESPACE = 'java-app'
+        SONAR_TOKEN = credentials('sonarqube')
         SONAR_URL = 'http://43.205.138.85:9000'
         NEXUS_URL = 'http://43.205.138.85:8081'
         PATH = "${GRADLE_HOME}/bin:${env.PATH}:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
@@ -62,7 +63,7 @@ pipeline {
                 script {
                     echo 'Running SonarQube analysis'
                     withSonarQubeEnv('sonarqube') {
-                        sh "gradle sonarqube -Dsonar.host.url=${SONAR_URL} -Dsonar.login=${env.SONAR_TOKEN}"
+                        sh "./gradlew sonarqube -Dsonar.host.url=${SONAR_URL} -Dsonar.login=${env.SONAR_TOKEN}"
                     }
                 }
             }
