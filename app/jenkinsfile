@@ -17,9 +17,9 @@ pipeline {
             steps {
                 checkout([
                     $class: 'GitSCM',
-                    branches: [[name: '*/master']],
+                    branches: [[name: '*/main']],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/kushagra023/NewJavaCode.git',
+                        url: 'https://github.com/heydevopsdev/DevOps_Repo.git',
                         credentialsId: 'git-token'  // Replace with your Git credentials ID
                     ]]
                 ])
