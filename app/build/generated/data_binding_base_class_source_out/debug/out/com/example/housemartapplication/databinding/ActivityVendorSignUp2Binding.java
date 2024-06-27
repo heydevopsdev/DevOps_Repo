@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,9 +23,6 @@ import java.lang.String;
 public final class ActivityVendorSignUp2Binding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final TextInputEditText StateNameTextInputEt;
 
   @NonNull
   public final TextInputEditText cityNameTextInputEt;
@@ -46,6 +44,9 @@ public final class ActivityVendorSignUp2Binding implements ViewBinding {
 
   @NonNull
   public final TextInputEditText shopLandmarkTextInputEt;
+
+  @NonNull
+  public final TextInputEditText stateNameTextInputEt;
 
   @NonNull
   public final TextInputLayout textInputLayoutCityName;
@@ -77,22 +78,24 @@ public final class ActivityVendorSignUp2Binding implements ViewBinding {
   @NonNull
   public final TextView textView7;
 
+  @NonNull
+  public final ScrollView vendorSignUpScrollView;
+
   private ActivityVendorSignUp2Binding(@NonNull ConstraintLayout rootView,
-      @NonNull TextInputEditText StateNameTextInputEt,
       @NonNull TextInputEditText cityNameTextInputEt, @NonNull Button finalSignupAsVendorButton,
       @NonNull LinearLayout linearLayout, @NonNull ConstraintLayout main,
       @NonNull TextInputEditText pinCodeTextInputEt,
       @NonNull TextInputEditText shopAddressTextInputEt,
       @NonNull TextInputEditText shopLandmarkTextInputEt,
+      @NonNull TextInputEditText stateNameTextInputEt,
       @NonNull TextInputLayout textInputLayoutCityName,
       @NonNull TextInputLayout textInputLayoutPinCode,
       @NonNull TextInputLayout textInputLayoutStateName,
       @NonNull TextInputLayout textInputLayoutVendorShopAddress,
       @NonNull TextInputLayout textInputLayoutVendorShopLandmark, @NonNull TextView textView3,
       @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6,
-      @NonNull TextView textView7) {
+      @NonNull TextView textView7, @NonNull ScrollView vendorSignUpScrollView) {
     this.rootView = rootView;
-    this.StateNameTextInputEt = StateNameTextInputEt;
     this.cityNameTextInputEt = cityNameTextInputEt;
     this.finalSignupAsVendorButton = finalSignupAsVendorButton;
     this.linearLayout = linearLayout;
@@ -100,6 +103,7 @@ public final class ActivityVendorSignUp2Binding implements ViewBinding {
     this.pinCodeTextInputEt = pinCodeTextInputEt;
     this.shopAddressTextInputEt = shopAddressTextInputEt;
     this.shopLandmarkTextInputEt = shopLandmarkTextInputEt;
+    this.stateNameTextInputEt = stateNameTextInputEt;
     this.textInputLayoutCityName = textInputLayoutCityName;
     this.textInputLayoutPinCode = textInputLayoutPinCode;
     this.textInputLayoutStateName = textInputLayoutStateName;
@@ -110,6 +114,7 @@ public final class ActivityVendorSignUp2Binding implements ViewBinding {
     this.textView5 = textView5;
     this.textView6 = textView6;
     this.textView7 = textView7;
+    this.vendorSignUpScrollView = vendorSignUpScrollView;
   }
 
   @Override
@@ -139,12 +144,6 @@ public final class ActivityVendorSignUp2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.StateNameTextInputEt;
-      TextInputEditText StateNameTextInputEt = ViewBindings.findChildViewById(rootView, id);
-      if (StateNameTextInputEt == null) {
-        break missingId;
-      }
-
       id = R.id.cityNameTextInputEt;
       TextInputEditText cityNameTextInputEt = ViewBindings.findChildViewById(rootView, id);
       if (cityNameTextInputEt == null) {
@@ -180,6 +179,12 @@ public final class ActivityVendorSignUp2Binding implements ViewBinding {
       id = R.id.shopLandmarkTextInputEt;
       TextInputEditText shopLandmarkTextInputEt = ViewBindings.findChildViewById(rootView, id);
       if (shopLandmarkTextInputEt == null) {
+        break missingId;
+      }
+
+      id = R.id.stateNameTextInputEt;
+      TextInputEditText stateNameTextInputEt = ViewBindings.findChildViewById(rootView, id);
+      if (stateNameTextInputEt == null) {
         break missingId;
       }
 
@@ -243,11 +248,18 @@ public final class ActivityVendorSignUp2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityVendorSignUp2Binding((ConstraintLayout) rootView, StateNameTextInputEt,
-          cityNameTextInputEt, finalSignupAsVendorButton, linearLayout, main, pinCodeTextInputEt,
-          shopAddressTextInputEt, shopLandmarkTextInputEt, textInputLayoutCityName,
+      id = R.id.vendorSignUpScrollView;
+      ScrollView vendorSignUpScrollView = ViewBindings.findChildViewById(rootView, id);
+      if (vendorSignUpScrollView == null) {
+        break missingId;
+      }
+
+      return new ActivityVendorSignUp2Binding((ConstraintLayout) rootView, cityNameTextInputEt,
+          finalSignupAsVendorButton, linearLayout, main, pinCodeTextInputEt, shopAddressTextInputEt,
+          shopLandmarkTextInputEt, stateNameTextInputEt, textInputLayoutCityName,
           textInputLayoutPinCode, textInputLayoutStateName, textInputLayoutVendorShopAddress,
-          textInputLayoutVendorShopLandmark, textView3, textView4, textView5, textView6, textView7);
+          textInputLayoutVendorShopLandmark, textView3, textView4, textView5, textView6, textView7,
+          vendorSignUpScrollView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

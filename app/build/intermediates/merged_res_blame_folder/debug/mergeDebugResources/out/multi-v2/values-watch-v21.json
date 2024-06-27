@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.housemartapplication.app-mergeDebugResources-2:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.housemartapplication.app-mergeDebugResources-3:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/b3a1501e84f80562c2b5dded00d25a92/transformed/appcompat-1.7.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/90834e4b00874352766797da0df831bd/transformed/appcompat-1.7.0/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

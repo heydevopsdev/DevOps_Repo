@@ -4,10 +4,10 @@ package com.example.housemartapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.housemartapplication.R;
@@ -24,17 +24,18 @@ public final class ActivityMainBinding implements ViewBinding {
   public final BottomNavigationView btmNavigationView;
 
   @NonNull
-  public final FrameLayout frameLayout;
+  public final FragmentContainerView fragmentContainerView;
 
   @NonNull
   public final ConstraintLayout linearLayoutCompat;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView btmNavigationView, @NonNull FrameLayout frameLayout,
+      @NonNull BottomNavigationView btmNavigationView,
+      @NonNull FragmentContainerView fragmentContainerView,
       @NonNull ConstraintLayout linearLayoutCompat) {
     this.rootView = rootView;
     this.btmNavigationView = btmNavigationView;
-    this.frameLayout = frameLayout;
+    this.fragmentContainerView = fragmentContainerView;
     this.linearLayoutCompat = linearLayoutCompat;
   }
 
@@ -71,16 +72,16 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.frameLayout;
-      FrameLayout frameLayout = ViewBindings.findChildViewById(rootView, id);
-      if (frameLayout == null) {
+      id = R.id.fragmentContainerView;
+      FragmentContainerView fragmentContainerView = ViewBindings.findChildViewById(rootView, id);
+      if (fragmentContainerView == null) {
         break missingId;
       }
 
       ConstraintLayout linearLayoutCompat = (ConstraintLayout) rootView;
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, btmNavigationView, frameLayout,
-          linearLayoutCompat);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btmNavigationView,
+          fragmentContainerView, linearLayoutCompat);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

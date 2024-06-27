@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/layout_bottom_sheet.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/layout_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_parent_auth.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_parent_auth.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/fragment_bottom_sheet.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/fragment_account.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/fragment_location_permission_bottom_sheet.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_location_permission_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_splash.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/fragment_home.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_on_boarding.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_on_boarding.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_on_boarding2.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_on_boarding2.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/layout_product_page.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/layout_product_page.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/layout_shops.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/layout_shops.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/layout_category.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/layout_category.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/fragment_cart.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_user_sign_up.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_user_sign_up.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_sign_in.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_vendor_sign_up2.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_vendor_sign_up2.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_main.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_vendor_sign_up.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_vendor_sign_up.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_user_sign_up_otp.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_user_sign_up_otp.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/location_bottom_sheet_layout.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/location_bottom_sheet_layout.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/activity_shop_items.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/activity_shop_items.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/search_screen_layout.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/search_screen_layout.xml"
+    },
+    {
+        "merged": "com.example.housemartapplication.app-mergeReleaseResources-4:/layout/fragment_explore.xml",
+        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_explore.xml"
+    }
+]

@@ -4,9 +4,9 @@ package com.example.housemartapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.viewbinding.ViewBinding;
 import com.example.housemartapplication.R;
 import java.lang.NullPointerException;
@@ -14,15 +14,15 @@ import java.lang.Override;
 
 public final class FragmentAccountBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayoutCompat rootView;
 
-  private FragmentAccountBinding(@NonNull FrameLayout rootView) {
+  private FragmentAccountBinding(@NonNull LinearLayoutCompat rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayoutCompat getRoot() {
     return rootView;
   }
 
@@ -47,6 +47,6 @@ public final class FragmentAccountBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new FragmentAccountBinding((FrameLayout) rootView);
+    return new FragmentAccountBinding((LinearLayoutCompat) rootView);
   }
 }

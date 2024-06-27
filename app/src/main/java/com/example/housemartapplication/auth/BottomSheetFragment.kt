@@ -47,6 +47,7 @@ class BottomSheetFragment : BottomSheetDialogFragment() {
         }
         view.findViewById<TextView>(R.id.signInTextView).setOnClickListener {
             // TODO: sign in activity for user and vendor both (single or separate separate)
+            startActivity(Intent(activity, SignInActivity::class.java))
         }
         return view
     }

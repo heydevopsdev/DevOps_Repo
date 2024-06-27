@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.housemartapplication.app-mergeDebugResources-2:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.housemartapplication.app-mergeDebugResources-3:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/61947e9a9fad04aa73c5b5226a44a58c/transformed/material-1.12.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/fc3d7630a323771f075c6dfd2e2f8f7d/transformed/material-1.12.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

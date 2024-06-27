@@ -1,382 +1,458 @@
 [
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_splash.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_splash.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinslight.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinslight.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_fragment_explore.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/fragment_explore.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_payment.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_payment.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_on_boarding2.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_on_boarding2.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_main.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.housemartapplication.app-debug-4:/layout_fragment_account.xml.flat",
-        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_account.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_product_img.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_product_img.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_dropdown.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_dropdown.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_onboarding_img.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/onboarding_img.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_on_boarding.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_on_boarding.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/raw_animation_skeleton_screen_product.json.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/raw/animation_skeleton_screen_product.json"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_cart_ic.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/cart_ic.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_baseline_person_24.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/baseline_person_24.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_star.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_star.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_parent_auth.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_parent_auth.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/xml_backup_rules.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/xml/backup_rules.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_line_bottom_sheet.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/line_bottom_sheet.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_clock.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_clock.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_fragment_home.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/fragment_home.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_search_view_bg.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/search_view_bg.xml"
     },
     {
-        "merged": "com.example.housemartapplication.app-debug-4:/layout_fragment_cart.xml.flat",
-        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_cart.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_vect_notification.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/vect_notification.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinssemibold.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinssemibold.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinslightitalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinslightitalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_search_screen_layout.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/search_screen_layout.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_red_gradient_for_boarding_screen.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/red_gradient_for_boarding_screen.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_layout_category.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/layout_category.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/xml/data_extraction_rules.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_user_sign_up_otp.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_user_sign_up_otp.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_layout_shops.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/layout_shops.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/xml_backup_rules.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_user_sign_up.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_user_sign_up.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_product_img2.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_product_img2.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsextrabold.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsextrabold.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_logo.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/logo.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_launcher_background.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_splash.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_splash.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_vendor_sign_up.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_vendor_sign_up.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsbolditalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsbolditalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_onboarding_img.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/onboarding_img.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsextralightitalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsextralightitalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_product_quantity_more.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_product_quantity_more.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_baseline_add_location_24.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/baseline_add_location_24.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsmediumitalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsmediumitalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_profile_img_logo.jpeg.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/profile_img_logo.jpeg"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_baseline_add_location_24.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/baseline_add_location_24.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_location_permission_bottom_sheet.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_location_permission_bottom_sheet.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_baseline_error_24.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/baseline_error_24.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_layout_bottom_sheet.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/layout_bottom_sheet.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsbolditalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsbolditalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_signup_img_png.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/signup_img_png.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_bg_border.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/bg_border.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_baseline_phone_24.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/baseline_phone_24.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_baseline.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/baseline.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_img.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/img.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_product_quantity_less.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_product_quantity_less.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_layout_category.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/layout_category.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_user_sign_up.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_user_sign_up.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsextralight.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsextralight.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_sign_in_otp.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_sign_in_otp.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsmedium.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsmedium.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_shop.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_shop.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_shop_1.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_shop_1.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_vect_location.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/vect_location.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_person_ic.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/person_ic.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_baseline_check_circle_24.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/baseline_check_circle_24.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_product_quantity_more.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_product_quantity_more.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_fragment_cart.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/fragment_cart.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_on_boarding.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_on_boarding.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_cart_ic.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/cart_ic.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_back_btn_product.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_back_btn_product.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsregular.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsregular.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_user.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_user.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_user_sign_up_otp.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_user_sign_up_otp.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_account.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_account.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_vendor_sign_up2.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_vendor_sign_up2.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/menu_bottom_nav_menu.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/menu/bottom_nav_menu.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_vect_notification.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/vect_notification.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_back_btn.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_back_btn.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsblack.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsblack.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_filter.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_filter.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_onboarding_layout.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/onboarding_layout.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_baseline_check_circle_24.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/baseline_check_circle_24.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_dropdown.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_dropdown.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_heart.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_heart.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_product_detail.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_product_detail.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_shop_items.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_shop_items.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinslightitalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinslightitalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_line_bottom_sheet.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/line_bottom_sheet.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsblack.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsblack.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_on_boarding2.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_on_boarding2.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_category_1.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_category_1.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsextralightitalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsextralightitalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_shop_1.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_shop_1.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_splash_logo.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_splash_logo.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_baseline_error_24.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/baseline_error_24.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_bg_border.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/bg_border.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_vect_location.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/vect_location.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_product.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_product.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_launcher_foreground.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsblackitalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsblackitalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsmediumitalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsmediumitalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/raw_animation_skeleton_screen_product.json.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/raw/animation_skeleton_screen_product.json"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_clock.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_clock.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_signup_img_png.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/signup_img_png.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsthinitalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsthinitalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_layout_product_page.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/layout_product_page.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_location.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/location.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsextrabolditalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsextrabolditalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/navigation_my_nav.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/navigation/my_nav.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinssemibolditalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinssemibolditalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsregular.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsregular.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_star.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_star.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_filter.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_filter.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsblackitalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsblackitalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_red_gradient_for_boarding_screen.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/red_gradient_for_boarding_screen.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_logo.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/logo.png"
+        "merged": "com.example.housemartapplication.app-debug-5:/layout_activity_vendor_sign_up2.xml.flat",
+        "source": "com.example.housemartapplication.app-main-7:/layout/activity_vendor_sign_up2.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_fragment_bottom_sheet.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/fragment_bottom_sheet.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_sign_in.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsextrabolditalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsextrabolditalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsbold.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsbold.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_vendor_sign_up.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_vendor_sign_up.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinssemibolditalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinssemibolditalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_rounded_material_btn.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/rounded_material_btn.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_back_btn.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_back_btn.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_product_img.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_product_img.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsextrabold.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsextrabold.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_home_ic.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/home_ic.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.housemartapplication.app-debug-4:/layout_fragment_explore.xml.flat",
-        "source": "com.example.housemartapplication.app-main-6:/layout/fragment_explore.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_orders.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_orders.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_activity_main.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/activity_main.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_vect_search_bar.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/vect_search_bar.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_product_quantity_less.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_product_quantity_less.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsthinitalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsthinitalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsitalic.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsitalic.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_explore_ic.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/explore_ic.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_home.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_home.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsthin.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsthin.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_tool_onboarding_img.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/tool_onboarding_img.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_forward.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_forward.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_heart_svg.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_heart_svg.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_heart_svg.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_heart_svg.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_home_ic.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/home_ic.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinslight.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinslight.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_category_1.png.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_category_1.png"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinssemibold.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinssemibold.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_ic_back_btn_product.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/ic_back_btn_product.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_layout_shops.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/layout_shops.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_fragment_account.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/fragment_account.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_tool_onboarding_img.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/tool_onboarding_img.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/font_poppinsitalic.ttf.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/font/poppinsitalic.ttf"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsextralight.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsextralight.ttf"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_baseline_phone_24.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/baseline_phone_24.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_address.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_address.png"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/layout_layout_bottom_sheet.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/layout/layout_bottom_sheet.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_cart.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_cart.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_rounded_bottom_sheet.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/rounded_bottom_sheet.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_parent_auth.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_parent_auth.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_vect_search_bar.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/vect_search_bar.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_custom_adapter_product.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/custom_adapter_product.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_profile_img_logo.jpeg.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/profile_img_logo.jpeg"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_location_bottom_sheet_layout.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/location_bottom_sheet_layout.xml"
     },
     {
-        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-4:/drawable_person_ic.xml.flat",
-        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-6:/drawable/person_ic.xml"
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_baseline_person_24.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsthin.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsthin.ttf"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_heart.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_heart.png"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_activity_vendor_sign_up2.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/activity_vendor_sign_up2.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_baseline.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/baseline.png"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_explore.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_bottom_sheet_background.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/bottom_sheet_background.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_rounded_material_btn.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/rounded_material_btn.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_profile.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_profile.png"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsbold.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsbold.ttf"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_splash_logo.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_splash_logo.png"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/font_poppinsmedium.ttf.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/font/poppinsmedium.ttf"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_ic_logout.png.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/ic_logout.png"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_explore_ic.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/explore_ic.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/drawable_rounded_bottom_sheet.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/drawable/rounded_bottom_sheet.xml"
+    },
+    {
+        "merged": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-debug-5:/layout_fragment_bottom_sheet.xml.flat",
+        "source": "/home/akash-soam/softwares/gradle-8.8-bin/daemon/8.6/com.example.housemartapplication.app-main-7:/layout/fragment_bottom_sheet.xml"
     }
 ]

@@ -1,43 +1,45 @@
 package com.example.housemartapplication
 
+import ProductViewModel
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
 import com.example.housemartapplication.databinding.ActivityMainBinding
-import com.example.housemartapplication.fragments.AccountFragment
-import com.example.housemartapplication.fragments.CartFragment
-import com.example.housemartapplication.fragments.ExploreFragment
-import com.example.housemartapplication.fragments.HomeFragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var product: ProductViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_main)
 
-        replaceFragment(HomeFragment())
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.btmNavigationView)
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
+        val navController = navHostFragment.navController
 
-        binding.btmNavigationView.setOnItemSelectedListener {
-            when (it.itemId) {
-                R.id.home -> replaceFragment(HomeFragment())
-                R.id.cart -> replaceFragment(CartFragment())
-                R.id.explore -> replaceFragment(ExploreFragment())
-                R.id.account -> replaceFragment(AccountFragment())
-                else -> {}
-            }
+        val locationPermissionBottomSheetFrag = LocationPermissionBottomSheetFrag()
 
-            true
-        }
+//        cancellable yha se hta dena baad me
+//        locationPermissionBottomSheetFrag.isCancelable = false
 
+
+        locationPermissionBottomSheetFrag.show(
+            supportFragmentManager,
+            "locationPermissionBottomSheetFrag"
+        )
+
+//    bottomNavigationView.setupWithNavController(navController)
+        bottomNavigationView.setupWithNavController(navController)
+        HelperClass.context = this
+
+
+//        true
 
     }
 
-    private fun replaceFragment(fragment: Fragment) {
-        val fragmentManager = supportFragmentManager
-        val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.frameLayout, fragment)
-        fragmentTransaction.commit()
-    }
+
 }

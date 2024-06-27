@@ -11,8 +11,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.housemartapplication.R;
-import com.google.android.material.button.MaterialButton;
-import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -27,20 +25,11 @@ public final class ActivityParentAuthBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout main;
 
-  @NonNull
-  public final MaterialButton parentSignUpBtn;
-
-  @NonNull
-  public final CircleImageView profileIconImg;
-
   private ActivityParentAuthBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView bgImg,
-      @NonNull ConstraintLayout main, @NonNull MaterialButton parentSignUpBtn,
-      @NonNull CircleImageView profileIconImg) {
+      @NonNull ConstraintLayout main) {
     this.rootView = rootView;
     this.bgImg = bgImg;
     this.main = main;
-    this.parentSignUpBtn = parentSignUpBtn;
-    this.profileIconImg = profileIconImg;
   }
 
   @Override
@@ -78,20 +67,7 @@ public final class ActivityParentAuthBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      id = R.id.parentSignUpBtn;
-      MaterialButton parentSignUpBtn = ViewBindings.findChildViewById(rootView, id);
-      if (parentSignUpBtn == null) {
-        break missingId;
-      }
-
-      id = R.id.profile_icon_img;
-      CircleImageView profileIconImg = ViewBindings.findChildViewById(rootView, id);
-      if (profileIconImg == null) {
-        break missingId;
-      }
-
-      return new ActivityParentAuthBinding((ConstraintLayout) rootView, bgImg, main,
-          parentSignUpBtn, profileIconImg);
+      return new ActivityParentAuthBinding((ConstraintLayout) rootView, bgImg, main);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

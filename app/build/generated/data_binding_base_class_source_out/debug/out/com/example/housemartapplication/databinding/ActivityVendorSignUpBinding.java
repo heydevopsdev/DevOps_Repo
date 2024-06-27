@@ -52,13 +52,13 @@ public final class ActivityVendorSignUpBinding implements ViewBinding {
   public final TextInputEditText shopNameTextInputEt;
 
   @NonNull
-  public final TextInputLayout textInputLayoutVendorFullName;
-
-  @NonNull
   public final TextInputLayout textInputLayoutVendorGSTNo;
 
   @NonNull
   public final TextInputLayout textInputLayoutVendorMobileNo;
+
+  @NonNull
+  public final TextInputLayout textInputLayoutVendorName;
 
   @NonNull
   public final TextInputLayout textInputLayoutVendorShopName;
@@ -87,9 +87,9 @@ public final class ActivityVendorSignUpBinding implements ViewBinding {
       @NonNull ConstraintLayout main, @NonNull TextInputEditText mobNumVendorSignUpTextInputEt,
       @NonNull TextInputEditText nameTextInputEt, @NonNull Button nextBtnSignupAsVendor1,
       @NonNull TextInputEditText shopNameTextInputEt,
-      @NonNull TextInputLayout textInputLayoutVendorFullName,
       @NonNull TextInputLayout textInputLayoutVendorGSTNo,
       @NonNull TextInputLayout textInputLayoutVendorMobileNo,
+      @NonNull TextInputLayout textInputLayoutVendorName,
       @NonNull TextInputLayout textInputLayoutVendorShopName, @NonNull TextView textView,
       @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView4,
       @NonNull TextView textView5, @NonNull TextView textView6) {
@@ -103,9 +103,9 @@ public final class ActivityVendorSignUpBinding implements ViewBinding {
     this.nameTextInputEt = nameTextInputEt;
     this.nextBtnSignupAsVendor1 = nextBtnSignupAsVendor1;
     this.shopNameTextInputEt = shopNameTextInputEt;
-    this.textInputLayoutVendorFullName = textInputLayoutVendorFullName;
     this.textInputLayoutVendorGSTNo = textInputLayoutVendorGSTNo;
     this.textInputLayoutVendorMobileNo = textInputLayoutVendorMobileNo;
+    this.textInputLayoutVendorName = textInputLayoutVendorName;
     this.textInputLayoutVendorShopName = textInputLayoutVendorShopName;
     this.textView = textView;
     this.textView2 = textView2;
@@ -192,12 +192,6 @@ public final class ActivityVendorSignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textInputLayoutVendorFullName;
-      TextInputLayout textInputLayoutVendorFullName = ViewBindings.findChildViewById(rootView, id);
-      if (textInputLayoutVendorFullName == null) {
-        break missingId;
-      }
-
       id = R.id.textInputLayoutVendorGSTNo;
       TextInputLayout textInputLayoutVendorGSTNo = ViewBindings.findChildViewById(rootView, id);
       if (textInputLayoutVendorGSTNo == null) {
@@ -207,6 +201,12 @@ public final class ActivityVendorSignUpBinding implements ViewBinding {
       id = R.id.textInputLayoutVendorMobileNo;
       TextInputLayout textInputLayoutVendorMobileNo = ViewBindings.findChildViewById(rootView, id);
       if (textInputLayoutVendorMobileNo == null) {
+        break missingId;
+      }
+
+      id = R.id.textInputLayoutVendorName;
+      TextInputLayout textInputLayoutVendorName = ViewBindings.findChildViewById(rootView, id);
+      if (textInputLayoutVendorName == null) {
         break missingId;
       }
 
@@ -254,10 +254,9 @@ public final class ActivityVendorSignUpBinding implements ViewBinding {
 
       return new ActivityVendorSignUpBinding((ConstraintLayout) rootView, gstNoTextInputEt,
           imageView, linearLayout, linearLayout2, main, mobNumVendorSignUpTextInputEt,
-          nameTextInputEt, nextBtnSignupAsVendor1, shopNameTextInputEt,
-          textInputLayoutVendorFullName, textInputLayoutVendorGSTNo, textInputLayoutVendorMobileNo,
-          textInputLayoutVendorShopName, textView, textView2, textView3, textView4, textView5,
-          textView6);
+          nameTextInputEt, nextBtnSignupAsVendor1, shopNameTextInputEt, textInputLayoutVendorGSTNo,
+          textInputLayoutVendorMobileNo, textInputLayoutVendorName, textInputLayoutVendorShopName,
+          textView, textView2, textView3, textView4, textView5, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<merger version="3"><dataSet config="androidTest" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/androidTest/shaders"/></dataSet><dataSet config="androidTestDebug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/src/androidTestDebug/shaders"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="androidTest" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\ASHIKA\AndroidStudioProjects\android_dev\app\src\androidTest\shaders"/></dataSet><dataSet config="androidTestDebug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\ASHIKA\AndroidStudioProjects\android_dev\app\src\androidTestDebug\shaders"/></dataSet></merger>
+>>>>>>> 0aff1e9474c466b5d8cceb100611cfdced0d4880

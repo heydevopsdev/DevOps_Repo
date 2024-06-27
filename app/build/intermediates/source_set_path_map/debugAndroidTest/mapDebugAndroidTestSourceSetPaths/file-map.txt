@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+com.example.housemartapplication.test.app-androidTest-0 /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/build/generated/res/resValues/androidTest/debug
+com.example.housemartapplication.test.app-mergeDebugAndroidTestResources-1 /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.housemartapplication.test.app-mergeDebugAndroidTestResources-2 /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.housemartapplication.test.app-debugAndroidTest-3 /home/akash-soam/Android/StudioProjects/android_dev/android_dev/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.example.housemartapplication.test.app-core-1.5.0-4 /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/09ffc48f8c0f7fb975e3c5cd79840a01/transformed/core-1.5.0/res
+com.example.housemartapplication.test.app-annotation-experimental-1.4.0-5 /home/akash-soam/softwares/gradle-8.8-bin/caches/transforms-4/8142962b5c9717c2ee45f32ca1cd62c2/transformed/annotation-experimental-1.4.0/res
+=======
+com.example.housemartapplication.test.app-core-1.5.0-0 C:\Users\ASHIKA\.gradle\caches\transforms-4\09ffc48f8c0f7fb975e3c5cd79840a01\transformed\core-1.5.0\res
+com.example.housemartapplication.test.app-annotation-experimental-1.4.0-1 C:\Users\ASHIKA\.gradle\caches\transforms-4\8142962b5c9717c2ee45f32ca1cd62c2\transformed\annotation-experimental-1.4.0\res
+com.example.housemartapplication.test.app-androidTest-2 C:\Users\ASHIKA\AndroidStudioProjects\android_dev\app\build\generated\res\resValues\androidTest\debug
+com.example.housemartapplication.test.app-mergeDebugAndroidTestResources-3 C:\Users\ASHIKA\AndroidStudioProjects\android_dev\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.housemartapplication.test.app-mergeDebugAndroidTestResources-4 C:\Users\ASHIKA\AndroidStudioProjects\android_dev\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.housemartapplication.test.app-debugAndroidTest-5 C:\Users\ASHIKA\AndroidStudioProjects\android_dev\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+>>>>>>> 0aff1e9474c466b5d8cceb100611cfdced0d4880
