@@ -36,7 +36,7 @@ pipeline {
 
         stage('Compile Java App Using Gradle') {
             steps {
-                dir('app') {
+                 {
                     echo 'Building Java application'
                     sh "gradle --version"
                     sh 'chmod +x gradlew'
