@@ -27,6 +27,16 @@ pipeline {
             }
         }
 
+        stage('Verify Environment') {
+            steps {
+                script {
+                    echo 'Verifying environment variables and SDK directory'
+                    sh 'env'
+                    sh 'ls -l ${ANDROID_SDK_ROOT}'
+                }
+            }
+        }
+
         stage('Scan File System Using Trivy') {
             steps {
                 script {
