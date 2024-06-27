@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     environment {
-        GRADLE_HOME = '/opt/gradle/gradle-7.3.3'
-        PATH = "${GRADLE_HOME}/bin:${env.PATH}"
+        GRADLE_HOME = '/opt/gradle-8.6'
+        PATH = "${GRADLE_HOME}/bin:${PATH}"
         AWS_DEFAULT_REGION = 'ap-south-1'
         ECR_REGISTRY = '730335604401.dkr.ecr.ap-south-1.amazonaws.com'
         ECR_REPO = 'heydevopsjavaapp'
