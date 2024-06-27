@@ -8,8 +8,8 @@ pipeline {
         ECR_REGISTRY = '730335604401.dkr.ecr.ap-south-1.amazonaws.com'
         ECR_REPO = 'heydevopsjavaapp'
         K8S_NAMESPACE = 'java-app'
-        SONAR_URL = 'http://13.233.172.161:9000'
-        NEXUS_URL = 'http://13.233.172.161:8081'
+        SONAR_URL = 'http://13.126.76.97:9000'
+        NEXUS_URL = 'http://13.126.76.97:8081'
     }
     
     stages {
