@@ -10,6 +10,7 @@ pipeline {
         K8S_NAMESPACE = 'java-app'
         SONAR_URL = 'http://15.206.124.112:9000'
         NEXUS_URL = 'http://15.206.124.112:8081'
+        ANDROID_HOME = '/home/ubuntu/android-sdk' // Define your Android SDK path here
     }
     
     stages {
