@@ -36,7 +36,7 @@ pipeline {
 
         stage('Compile Java App Using Gradle') {
             steps {
-                 {
+                script {
                     echo 'Building Java application'
                     sh "gradle --version"
                     sh 'chmod +x gradlew'
@@ -47,7 +47,7 @@ pipeline {
 
         stage("SonarQube Analysis") {
             steps {
-                dir('app') {
+                script {
                     echo 'Running SonarQube analysis'
                     withSonarQubeEnv('sonarqube') {
                         sh "gradle sonarqube -Dsonar.host.url=${SONAR_URL} -Dsonar.login=${env.SONAR_TOKEN}"
@@ -64,26 +64,22 @@ pipeline {
                     def filesByGlob = findFiles(glob: "app/build/libs/*.jar")
                     def artifactPath = filesByGlob.isEmpty() ? null : filesByGlob[0].path
 
-                    if (gradleProps) {
-                        if (artifactPath) {
-                            nexusArtifactUploader(
-                                nexusVersion: 'nexus3',
-                                protocol: 'http',
-                                nexusUrl: "${NEXUS_URL}",
-                                groupId: "${gradleProps['group']}",
-                                version: "${gradleProps['version']}",
-                                repository: 'hey-devops-java-app',
-                                credentialsId: 'nexus',
-                                artifacts: [
-                                    [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: artifactPath, type: "jar"],
-                                    [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: "app/build/libs/${gradleProps['archivesBaseName']}-${gradleProps['version']}.pom", type: "pom"]
-                                ]
-                            )
-                        } else {
-                            error "*** File: ${artifactPath}, could not be found"
-                        }
+                    if (gradleProps && artifactPath) {
+                        nexusArtifactUploader(
+                            nexusVersion: 'nexus3',
+                            protocol: 'http',
+                            nexusUrl: "${NEXUS_URL}",
+                            groupId: "${gradleProps['group']}",
+                            version: "${gradleProps['version']}",
+                            repository: 'hey-devops-java-app',
+                            credentialsId: 'nexus',
+                            artifacts: [
+                                [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: artifactPath, type: "jar"],
+                                [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: "app/build/libs/${gradleProps['archivesBaseName']}-${gradleProps['version']}.pom", type: "pom"]
+                            ]
+                        )
                     } else {
-                        error "Failed to read gradle.properties file"
+                        error "Failed to read gradle.properties file or find artifact"
                     }
                 }
             }
