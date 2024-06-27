@@ -63,7 +63,7 @@ pipeline {
                 script {
                     echo 'Running SonarQube analysis'
                     withSonarQubeEnv('sonarqube') {
-                        sh "./gradlew sonarqube -Dsonar.host.url=${SONAR_URL} -Dsonar.login=${env.SONAR_TOKEN}"
+                        sh './gradlew sonarqube'
                     }
                 }
             }
