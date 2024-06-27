@@ -39,7 +39,7 @@ pipeline {
                 dir('app') {
                     echo 'Building Java application'
                     sh "gradle --version"
-                    sh "gradle clean build"
+                    sh "./gradlew clean build"
                 }
             }
         }
