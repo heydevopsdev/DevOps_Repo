@@ -10,7 +10,7 @@ pipeline {
         K8S_NAMESPACE = 'java-app'
         SONAR_TOKEN = credentials('sonarqube')
         SONAR_URL = 'http://43.205.138.85:9000'
-        NEXUS_URL = 'http://43.205.138.85:8081'
+        NEXUS_URL = 'http://43.205.138.85:8081/repository/hey-devops-java-app'
         PATH = "${GRADLE_HOME}/bin:${env.PATH}:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
     }
 
@@ -33,7 +33,7 @@ pipeline {
                 script {
                     echo 'Verifying environment variables and SDK directory'
                     sh 'env'
-                    sh 'ls -l ${ANDROID_SDK_ROOT}'
+                    sh "ls -l ${ANDROID_SDK_ROOT}"
                 }
             }
         }
@@ -74,10 +74,17 @@ pipeline {
                 script {
                     echo 'Publishing artifacts to Nexus'
                     def gradleProps = readProperties file: 'gradle.properties'
-                    def filesByGlob = findFiles(glob: "app/build/libs/*.jar")
-                    def artifactPath = filesByGlob.isEmpty() ? null : filesByGlob[0].path
-
-                    if (gradleProps && artifactPath) {
+                    
+                    // Find both debug and release APKs
+                    def debugApkPath = "app/build/outputs/apk/debug/app-debug.apk"
+                    def releaseApkPath = "app/build/outputs/apk/release/app-release.apk"
+                    
+                    // Check if APKs exist
+                    def debugApkExists = fileExists(debugApkPath)
+                    def releaseApkExists = fileExists(releaseApkPath)
+                    
+                    // Upload debug APK
+                    if (debugApkExists) {
                         nexusArtifactUploader(
                             nexusVersion: 'nexus3',
                             protocol: 'http',
@@ -87,12 +94,29 @@ pipeline {
                             repository: 'hey-devops-java-app',
                             credentialsId: 'nexus',
                             artifacts: [
-                                [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: artifactPath, type: "jar"],
-                                [artifactId: "${gradleProps['archivesBaseName']}", classifier: '', file: "app/build/libs/${gradleProps['archivesBaseName']}-${gradleProps['version']}.pom", type: "pom"]
+                                [artifactId: "${gradleProps['archivesBaseName']}", classifier: 'debug', file: debugApkPath, type: "apk"]
                             ]
                         )
                     } else {
-                        error "Failed to read gradle.properties file or find artifact"
+                        error "Debug APK not found"
+                    }
+                    
+                    // Upload release APK
+                    if (releaseApkExists) {
+                        nexusArtifactUploader(
+                            nexusVersion: 'nexus3',
+                            protocol: 'http',
+                            nexusUrl: "${NEXUS_URL}",
+                            groupId: "${gradleProps['group']}",
+                            version: "${gradleProps['version']}",
+                            repository: 'hey-devops-java-app',
+                            credentialsId: 'nexus',
+                            artifacts: [
+                                [artifactId: "${gradleProps['archivesBaseName']}", classifier: 'release', file: releaseApkPath, type: "apk"]
+                            ]
+                        )
+                    } else {
+                        error "Release APK not found"
                     }
                 }
             }
