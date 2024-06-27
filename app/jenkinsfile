@@ -42,6 +42,7 @@ pipeline {
                     echo 'Building Java application'
                     sh "gradle --version"
                     sh 'chmod +x gradlew'
+                    sh 'echo "sdk.dir=${ANDROID_SDK_ROOT}" > local.properties'
                     sh './gradlew clean build'
                 }
             }
